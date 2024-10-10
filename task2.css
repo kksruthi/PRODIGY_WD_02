@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(237, 195, 229);
+    background:linear-gradient(135deg, #a8edea, #fcd0de);
+    width: 50%;
+    min-width: 500px;
+}
+
+h1{
+    font-size: 50px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 90px;
+    border-radius: 10px;
+    background-color: beige;
+    margin: 30px;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btns button{
+    font-size: large;
+    margin: 20px;
+    margin-top: 50px;
+    padding: 10px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(157, 219, 219);
+}
+.btns button:hover{
+    background-color: rgb(127, 196, 196);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    transform: scale(1.05); 
+}
+
+#laplist{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+#laplist li {
+    padding: 5px;
+    font-family: 'Verdana', sans-serif;
+    background: rgba(255, 255, 255, 0.9); 
+    margin: 5px 70px ;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#laplist li{
+    padding: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
